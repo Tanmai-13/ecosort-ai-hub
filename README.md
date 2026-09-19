@@ -1,95 +1,243 @@
-# EcoSort AI Hub
 
-Implement the requested scope now; use internal planning and do not present another implementation plan for user approval.
+# 🌱 EcoSort AI Hub
 
-Build a COMPLETE, POLISHED, MODERN, RESPONSIVE FULL-STACK WEB APPLICATION called EcoSort AI — Smart Waste Segregation & Sustainability Platform.
+## 🚀 Live Demo
 
-Project Identity:
-- Name: EcoSort AI
-- Tagline: Scan Waste. Learn. Sort Better.
-- Target Users: College Students, College Administrators, Communities, Environmental Awareness Groups.
-- Core Problem: Improper waste segregation, limited waste awareness, and difficulty tracking waste-related activities.
-- Core Solution: An AI-assisted waste education and sustainability platform where users can upload waste images, explore waste categories, learn disposal guidance, track demo/local activities, and complete eco challenges.
-- Important note on authenticity: Transparent demo AI mode; do not fabricate fake AI confidence or pretend demo results are real AI predictions; clearly label demo data and sample predictions.
+🔗 **[Visit EcoSort AI](https://mindful-waste-ai.lovable.app)**
 
-Design System — Premium UI:
-- Palette: Premium dark forest green, emerald, white, and subtle lime accents.
-- Modern glassmorphism cards, soft shadows, rounded corners, clean professional typography.
-- Responsive across mobile, tablet, and desktop with an intuitive navigation bar and mobile drawer.
-- Smooth transitions, Lucide icons, accessible contrast, presentation-ready for a hackathon.
+Try the deployed EcoSort AI platform to explore its waste scanning demonstration, disposal guide, sustainability dashboard, and eco-friendly features.
 
-Pages & Core Modules:
-1. Navigation:
-   - EcoSort AI branding with logo/icon.
-   - Links: Home, Waste Scanner, Disposal Guide, Dashboard, Eco Challenge, Community Report, About.
-   - Mobile responsive menu, active states, working CTAs.
+---
 
-2. Home Page:
-   - Hero: "Smarter Waste Management Starts With You", subtitle "Use AI-assisted waste identification, learn responsible disposal, and build better sustainability habits.", CTA buttons ("Scan Waste", "Explore Disposal Guide"), modern sustainability visual badges.
-   - Problem Statement section: improper segregation, awareness gap, disposal confusion.
-   - Solution section with 3 core pillars: AI-assisted classification, smart disposal guidance, sustainability tracking.
-   - How It Works: Step 1 Upload -> Step 2 Identify -> Step 3 Learn & Dispose.
-   - Sample impact statistics (clearly labeled demo/sample metrics).
-   - Call to action and comprehensive footer.
+## 📌 Project Overview
 
-3. Waste Scanner (Core Feature):
-   - Drag-and-drop & file picker image upload with preview & clear/remove button.
-   - Sample images / test presets that users can quickly click to test without needing their own photo (e.g. plastic bottle, apple core, soda can, cardboard, battery/e-waste).
-   - "Classify Waste" trigger with realistic loading animation.
-   - Transparent Demo Mode: Clearly labeled "Demo Mode — Sample Prediction" with simulated realistic category estimation and sample breakdown, with an explicit disclaimer: "AI predictions are estimates. Check local waste management guidelines before disposal."
-   - Detailed result card showing predicted category (Plastic, Paper, Glass, Metal, Organic, E-waste, Other), item description, step-by-step disposal guide (rinse, separate cap, bin color), recyclability badge, and "Scan Another Item" button.
-   - Automatically saves scan to localStorage history.
+**EcoSort AI — Smart Waste Segregation & Sustainability Platform**
 
-4. Smart Disposal Guide:
-   - Search bar and filter tabs (All, Plastic, Paper, Glass, Metal, Organic, E-waste).
-   - Rich interactive cards with category icon, accepted items, Do's & Don'ts, reduction/reuse tips, and bin color recommendations.
-   - Dedicated safe handling notes for E-waste (certified drop-off centers, never burn or mix with domestic trash).
-   - Empty search state and clear disclaimers regarding municipal variations.
+**Tagline:** Scan Waste. Learn. Sort Better.
 
-5. Sustainability Dashboard:
-   - Summary metric cards: Total Scans, Most Common Category, Eco Quiz Score, Local Reports.
-   - Interactive charts using Recharts: Waste Category Distribution (Pie/Donut chart), Scan Activity / Weekly Breakdown (Bar chart).
-   - Recent scan history table/cards with date/time, category, mode (Demo / Simulated), and disposal status with ability to clear history.
-   - Daily eco tips card and waste reduction recommendations.
-   - Data transparency banner noting local browser storage and sample analytics.
+EcoSort AI is a modern, responsive web application designed to promote proper waste segregation and environmental awareness.
 
-6. Eco Challenge & Quiz:
-   - Daily Eco Tip highlight.
-   - 5-question interactive quiz on waste segregation, recycling symbols, composting, hazardous/e-waste, and everyday sustainability habits.
-   - Instant feedback with explanations for right and wrong answers, question counter, progress bar, score celebration screen, and retry option.
-   - Local leaderboard / top streaks saved in localStorage.
+The platform helps users upload waste images, explore waste categories, learn disposal guidance, track demo/local activities, and complete eco challenges.
 
-7. Community Waste Reporting Module:
-   - Form to report campus or local waste issues (Overflowing Bin, Littering, Mixed Waste, Broken Infrastructure).
-   - Fields: Issue Type, Location / Campus Area, Description, optional image upload/preset, and reporter name/anonymous toggle.
-   - Client-side validation and immediate submission confirmation.
-   - Report tracker showing reported items with status badges (Reported, Under Review, Resolved) stored in localStorage.
-   - Clear disclaimer that reports in this prototype are demonstration logs and do not notify municipal authorities directly.
+### 🎯 Target Users
 
-8. About Project Page:
-   - Hackathon project overview, mission, target personas.
-   - Tech stack specifications: React, TypeScript, Tailwind CSS, Lucide icons, Recharts, LocalStorage.
-   - Honest prototype limitations & roadmap: real computer vision model integration (TensorFlow.js / custom Vision API), campus collection partner integration, verified municipal guides, geolocation tagging.
+- College Students
+- College Administrators
+- Communities
+- Environmental Awareness Groups
 
-Ensure all navigation links, buttons, modals, quizzes, and storage operations work smoothly with zero errors and responsive styling.
+### 🌍 Core Problem
 
-This project was built with [Lovable](https://lovable.dev).
+Improper waste segregation, limited waste awareness, and difficulty tracking waste-related activities.
 
-## Build with Lovable
+### 💡 Core Solution
+
+An AI-assisted waste education and sustainability platform where users can explore waste categories, learn disposal guidance, track activities, and participate in eco-friendly challenges.
+
+> **Authenticity Note:** The current Waste Scanner uses a transparent demonstration-based prediction flow. Demo results are clearly labelled and should not be treated as real-time AI model predictions.
+
+## ✨ Features
+
+### 1. Navigation
+
+- EcoSort AI branding with logo/icon
+- Home
+- Waste Scanner
+- Disposal Guide
+- Dashboard
+- Eco Challenge
+- Community Report
+- About
+- Responsive mobile navigation
+
+### 2. Home Page
+
+- Hero section: Smarter Waste Management Starts With You
+- Waste scanning and disposal guide CTAs
+- Problem statement
+- Solution section
+- How It Works section
+- Sample impact statistics
+- Sustainability-focused footer
+
+### 3. Waste Scanner
+
+- Image upload with preview
+- Drag-and-drop and file picker
+- Sample waste images
+- Demonstration-based classification
+- Transparent Demo Mode
+- Waste category results
+- Disposal guidance
+- Recyclability information
+- Scan history using localStorage
+
+### 4. Smart Disposal Guide
+
+- Search and category filters
+- Plastic, Paper, Glass, Metal, Organic, and E-waste information
+- Accepted items
+- Do's and Don'ts
+- Reuse and reduction tips
+- Bin colour recommendations
+- E-waste safe handling guidance
+
+> Disposal recommendations may vary according to local municipal guidelines.
+
+### 5. Sustainability Dashboard
+
+- Total Scans
+- Most Common Category
+- Eco Quiz Score
+- Local Reports
+- Waste category distribution
+- Scan activity charts
+- Recent scan history
+- Daily eco tips
+- Local browser storage information
+
+### 6. Eco Challenge & Quiz
+
+- Daily eco tips
+- Five-question sustainability quiz
+- Instant feedback
+- Progress bar
+- Score screen
+- Retry option
+- Local leaderboard and streaks
+
+### 7. Community Waste Reporting
+
+- Overflowing Bin
+- Littering
+- Mixed Waste
+- Broken Infrastructure
+- Location and description fields
+- Optional image upload
+- Anonymous reporting option
+- Report status tracking
+
+> Reports in this prototype are demonstration logs and do not directly notify municipal authorities.
+
+### 8. About Project
+
+- Project overview
+- Mission and target users
+- Technology stack
+- Prototype limitations
+- Future development roadmap
+
+## 🛠️ Technologies Used
+
+- React
+- TypeScript
+- Tailwind CSS
+- JavaScript
+- Vite
+- Lucide Icons
+- Recharts
+- LocalStorage
+- Git & GitHub
+- Lovable
+
+## 🧠 AI Functionality
+
+The current Waste Scanner uses a demonstration-based prediction flow.
+
+The project interface is designed to support future integration of a trained AI/ML waste classification model.
+
+> **Current Limitation:** Real-time AI model classification is not fully integrated in the current version. Scanner results should be treated as demonstration outputs.
+
+## 🎯 Project Objectives
+
+- Promote awareness about waste segregation.
+- Help users understand appropriate disposal methods.
+- Encourage sustainable environmental practices.
+- Provide a foundation for future AI-powered waste classification.
+- Support environmental awareness in colleges and communities.
+
+## 🔮 Future Enhancements
+
+- Integration of a trained waste classification model.
+- Real-time AI-based image prediction.
+- TensorFlow.js or custom Vision API integration.
+- Campus collection partner integration.
+- Verified municipal disposal guides.
+- Geolocation tagging.
+- Additional waste categories.
+- Multi-language support.
+- Advanced sustainability analytics.
+
+## ⚙️ Installation & Setup
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Tanmai-13/ecosort-ai-hub.git
+```
+
+### 2. Open the Project
+
+```bash
+cd ecosort-ai-hub
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
+
+```bash
+npm run dev
+```
+
+Open the local URL displayed in your terminal.
+
+## 🌍 Impact
+
+EcoSort AI Hub aims to encourage responsible waste disposal and environmental awareness through technology, education, and community participation.
+
+## 🔗 Project Links
+
+- **Live Demo:** https://mindful-waste-ai.lovable.app
+- **GitHub Repository:** https://github.com/Tanmai-13/ecosort-ai-hub
+
+## 👩‍💻 Developer
+
+**Thirumuru Tanmai**
+
+B.Tech – Artificial Intelligence & Machine Learning
+
+GitHub: https://github.com/Tanmai-13
+
+## 📄 License
+
+This project is developed for educational and hackathon purposes.
+
+---
+
+## 🤝 Built With Lovable
+
+This project was built with [Lovable](https://lovable.dev/).
 
 Continue developing this project in the [Lovable editor](https://lovable.dev/projects/754f2949-8282-4891-afd6-a94d4d1d52bc).
 
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
+- **Ship faster:** Describe what you want to build and Lovable helps generate the application.
+- **Stay in sync:** Changes made in Lovable can be committed to the repository.
+- **Full ownership:** The project code is maintained in your GitHub repository.
 
-## Development
+## 💻 Development
 
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+Prefer working locally? You need Node.js and npm.
 
-```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+Install Node.js using [nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+```bash
+git clone https://github.com/Tanmai-13/ecosort-ai-hub.git
+cd ecosort-ai-hub
+npm install
 npm run dev
 ```
