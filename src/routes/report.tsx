@@ -301,7 +301,7 @@ function ReportPage() {
   );
 }
 
-function FieldError({ message }: { message?: string }) {
+function FieldError({ message }: { message?: string | undefined }) {
   if (!message) return null;
   return (
     <p className="flex items-center gap-1.5 text-xs text-destructive">
